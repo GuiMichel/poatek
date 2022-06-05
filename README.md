@@ -128,9 +128,9 @@ PRODUCT-ID| P_NAME	 |	CITY_NAME	    |	 WATER_AREA	    |   QUANTITY
 
 **2.7. AVARAGE DELIVERY TIME (DAYS) IN THE REGION NORTHEAST.**
 
-AVARAGE DELIVERY TIME|
----------------------| 
-    20 DAYS          |
+|AVARAGE DELIVERY TIME|
+|---------------------| 
+|    20 DAYS          |
 
 ~~~SQL
     SELECT AVG(( SO.DELIVERY_DATE - SO.ORDER_DATE)) AS "DELIVERY TIME"
