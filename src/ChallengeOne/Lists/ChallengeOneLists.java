@@ -1,19 +1,16 @@
 package ChallengeOne.Lists;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class ChallengeOneLists {
     public static void main(String[] args) {
-        int soma = 0;
-        double media = 0;
 
         List<Student> students = getStudent();
 
         List<Student> result = students.stream()
-                .filter(student -> student.getAge().intValue() > 13)
-                .filter(student -> student.getHeight()>calcAvarage(students))
-                .collect(Collectors.toList());
+                .filter(student -> student.getAge() > 13)
+                .filter(student -> student.getHeight() > calcAvarage(students))
+                .toList();
 
         result.forEach(System.out::println);
     }
