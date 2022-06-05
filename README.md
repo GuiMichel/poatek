@@ -1,7 +1,7 @@
 # Poatek :rocket:
  Repository to my technical challenge.
 
-## Challenge One :trophy:
+## 1. Challenge One :trophy:
 ![image](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
 #### In this challenge i used Java 17 in Intellij IDEA to solve the problems.
@@ -11,9 +11,13 @@
     1. clone this repository using git. <https://github.com/GuiMichel/poatek.git>
     2. open the project in your IDE.
     3. browse the directories named with the challenge name.
-    4. run the executable class of each challenge.
+    4. run the executable class of each challenge how below:
+       1. to challenge 1.1 run ChallengeOneLists.
+       2. to challenge 1.2 run ChallengeOneFunctions.
+       3. to challenge 1.3 run ChallengeOneClasses.
+   
 
-## Challenge Two :trophy:
+## 2. Challenge Two :trophy:
 ![image](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### In this challenge i used pgAdmin 4 and SQL consults to solve the problems.
@@ -51,7 +55,7 @@ CALIFORNIA 7605.
     ORDER BY "SOMA" DESC
     LIMIT 1;
 ~~~
-** .3. CITY IN STATE OF INDIANA HAVE THE BIGGEST TOTAL OF SALES(UNITS).**
+**.3. CITY IN STATE OF INDIANA HAVE THE BIGGEST TOTAL OF SALES(UNITS).**
 
 WAYNE 193.
 

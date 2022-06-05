@@ -3,14 +3,12 @@ package ChallengeOne.Lists;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ChallengeOne {
+public class ChallengeOneLists {
     public static void main(String[] args) {
         int soma = 0;
         double media = 0;
 
         List<Student> students = getStudent();
-
-
 
         List<Student> result = students.stream()
                 .filter(student -> student.getAge().intValue() > 13)
@@ -18,11 +16,7 @@ public class ChallengeOne {
                 .collect(Collectors.toList());
 
         result.forEach(System.out::println);
-
-
     }
-
-
 
     private static List<Student> getStudent(){
         return List.of(

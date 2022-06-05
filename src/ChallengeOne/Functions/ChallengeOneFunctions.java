@@ -1,6 +1,6 @@
 package ChallengeOne.Functions;
 
-public class CheckPalindrome {
+public class ChallengeOneFunctions {
 
     public static void main(String[] args) {
 
@@ -13,6 +13,7 @@ public class CheckPalindrome {
     }
 
     private static void checkPalindrome(String string) {
+
         String reverse = new StringBuffer(string).reverse().toString();
 
         if (string.toLowerCase().equals(reverse.toLowerCase())) {
@@ -20,6 +21,5 @@ public class CheckPalindrome {
         } else {
             System.out.println("Not is a Palindrome!");
         }
-
     }
 }
