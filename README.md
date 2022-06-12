@@ -7,7 +7,7 @@
 #### In this challenge i used Java 17 in Intellij IDEA to solve the problems.
 
  
-##### To assess this challenge you need:
+##### To acess this challenge you need:
     1. clone this repository using git. <https://github.com/GuiMichel/poatek.git>
     2. open the project in your IDE.
     3. browse the directories named with the challenge name.
